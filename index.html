@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <title>AFAWater Clicker</title>
+
+    <meta property="og:title" content="AFAWater Clicker">
+    <meta property="og:image" content="https://alwaysfreshaqua.com/images/afawater.png">
+    <meta property="og:description" content="Play AFAWater Clicker!">
+    <meta property="og:site_name" content="Always Fresh Aqua">
+    <meta property="og:url" content="https://alwaysfreshaqua.com">
+    <meta name="theme-color" content="#3498db">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>AFAWater Clicker</h1>
+
+        <div class="section" id="click-section">
+            <p id="click-count">Clicks: 0</p>
+            <div id="water-container">
+                <img id="water-image" src="images/afawater.png" alt="AFAWater">
+            </div>
+            <p id="water-count">Water: 0</p>
+            <p id="bottles-per-click">Bottles per Click: 1</p>
+            <p id="robots-count">Robots: 0</p>
+            <p id="bottles-per-second">Bottles per Second: 0</p>
+        </div>
+
+        <div class="section" id="upgrade-section">
+            <div class="upgrade-container">
+                <div class="upgrade">
+                    <p>Factory Upgrade</p>
+                    <img class="upgrade-image" src="images/factory_upgrade.png" alt="Factory Upgrade">
+                    <button id="buy-factory-upgrade">Buy Factory Upgrade</button>
+                    <p id="factory-upgrade-price"></p>
+                    <p class="upgrade-description">Upgrade your factory to produce an additional water bottle with each click. Max 10 upgrades.</p>
+                </div>
+
+                <div class="upgrade">
+                    <p>Robot Worker</p>
+                    <img class="upgrade-image" src="images/robot_worker.png" alt="Robot Worker">
+                    <button id="buy-robot-worker">Buy Robot Worker</button>
+                    <p id="robot-worker-price"></p>
+                    <p class="upgrade-description">Hire a robot worker to automatically generate one water bottle every 10 seconds. No limit on robots.</p>
+                </div>
+            </div>
+
+            <div class="upgrade-container">
+                <div class="upgrade">
+                    <p>Quantum Water Duplicator</p>
+                    <img class="upgrade-image" src="images/quantum_duplicator.png" alt="Quantum Water Duplicator">
+                    <button id="buy-quantum-duplicator">Buy Quantum Duplicator</button>
+                    <p id="quantum-duplicator-price"></p>
+                    <p class="upgrade-description">Unleash the power of quantum physics to duplicate water bottles with unparalleled efficiency. Each click now generates an astronomical number of water bottles.</p>
+                </div>
+
+                <div class="upgrade">
+                    <p>Celestial Aquifer</p>
+                    <img class="upgrade-image" src="images/celestial_aquifer.png" alt="Celestial Aquifer">
+                    <button id="buy-celestial-aquifer">Buy Celestial Aquifer</button>
+                    <p id="celestial-aquifer-price"></p>
+                    <p class="upgrade-description">Tap into the power of the Celestial Aquifer. Each click now generates an infinite amount of water bottles, defying the laws of physics.</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="reset-stats" class="reset-button">Reset Stats</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

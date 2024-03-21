@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#container {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+#water-container {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+#water-image {
+    width: 80px;
+    height: auto;
+    border: 2px solid #3498db; /* Add a 2px border with a button color (e.g., blue) */
+    border-radius: 8px; /* Add rounded corners */
+    padding: 10px; /* Add padding for better click area */
+    transition: background-color 0.3s; /* Add a smooth transition for the background color change */
+}
+
+#water-image:hover {
+    background-color: #ecf0f1; /* Change background color on hover (e.g., light gray) */
+}
+
+#upgrade-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upgrade-container {
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.upgrade {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.upgrade-image {
+    max-width: 100%;
+    width: 80px;
+    height: auto;
+}
+
+.upgrade button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.upgrade button:hover {
+    background-color: #2980b9;
+}
+
+.upgrade-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Add this style to your existing style.css file */
+#quantum-duplicator-price {
+    font-size: 14px; /* Adjust font size */
+    margin-top: 5px; /* Adjust margin */
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Add this style to your existing style.css file */
+.reset-button {
+    background-color: #e74c3c; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.reset-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
