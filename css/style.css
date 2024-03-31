@@ -35,7 +35,6 @@ h1 {
     padding: 10px; /* Add padding for better click area */
     transition: background-color 0.3s; /* Add a smooth transition for the background color change */
     user-drag: none; /* Prevent the image from being draggable */
-    dragable: false; /* Firefox image drag fix */
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
